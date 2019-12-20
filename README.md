@@ -14,5 +14,5 @@ springboot集成单点登录插件
 5. 服务启动后访问localhost:8080/test,由于此时未登录，地址重定向到 http://127.0.0.1/sso/loginPage?webapp=http%3A%2F%2Flocalhost%3A8080%2Ftest
    页面如下：
    
-   ![](https://github.com/chaojunma/file_repository/tree/master/sso-plugin/images/sso-login.png)  
+   ![](https://github.com/chaojunma/file_repository/blob/master/sso-plugn/images/sso-login.png)  
 
