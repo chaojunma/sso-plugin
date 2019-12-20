@@ -1,0 +1,7 @@
+server:
+  port: 8080
+
+sso:
+  enable: true
+  webapp-server: http://127.0.0.1:8080
+  sso-server: http://127.0.0.1

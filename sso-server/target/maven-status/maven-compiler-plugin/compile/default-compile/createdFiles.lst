@@ -1,0 +1,7 @@
+com\mk\sso\controller\SsoController.class
+com\mk\sso\mapper\UserMapper.class
+com\mk\sso\service\impl\UserServiceImpl.class
+com\mk\sso\SsoServerApplication.class
+com\mk\sso\config\RedisSessionConfig.class
+com\mk\sso\config\WebMvcConfig.class
+com\mk\sso\service\UserService.class

@@ -1,0 +1,29 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.mk.sso.SsoProperties",
+      "name": "sso",
+      "type": "com.mk.sso.SsoProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.mk.sso.SsoProperties",
+      "defaultValue": false,
+      "name": "sso.enable",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.mk.sso.SsoProperties",
+      "defaultValue": [],
+      "name": "sso.ignore-urls",
+      "type": "java.lang.String[]"
+    },
+    {
+      "sourceType": "com.mk.sso.SsoProperties",
+      "name": "sso.sso-server",
+      "type": "java.lang.String"
+    }
+  ]
+}
