@@ -24,6 +24,7 @@ sso:
   ignore-urls: #禁止校验的请求路径
   
 sso-client服务启动类中添加@EnableSso注解（表示应用sso单点登录插件，要配合配置文件中的配置使用），代码如下：
+````
 @EnableSso
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
 public class Application {
@@ -32,3 +33,4 @@ public class Application {
         SpringApplication.run(Application.class, args);
     }
 }
+````
