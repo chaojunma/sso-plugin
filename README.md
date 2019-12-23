@@ -17,11 +17,14 @@ springboot集成单点登录插件
    ![](https://github.com/chaojunma/file_repository/blob/master/sso-plugn/images/sso-login.png)  
 
 **如何配置**
+
 sso-client服务的application.yml文件如有如下配置
+````
 sso:
   enable: true #是否使用sso单点登录 true启用 false禁用 
   sso-server: http://127.0.0.1 #单点登录服务器地址
   ignore-urls: #禁止校验的请求路径
+````
   
 sso-client服务启动类中添加@EnableSso注解（表示应用sso单点登录插件，要配合配置文件中的配置使用），代码如下：
 ````
