@@ -1,9 +1,12 @@
+com\mk\sso\listener\SessionListener.class
 com\mk\sso\SsoAutoConfiguration.class
 com\mk\sso\SsoProperties.class
 com\mk\sso\EnableSso.class
+com\mk\sso\util\SessionContext.class
 com\mk\sso\entity\User.class
 com\mk\sso\filter\AuthFilter.class
 com\mk\sso\util\SsoUtil.class
+com\mk\sso\filter\SignOutFilter.class
 com\mk\sso\constant\Constants.class
 com\mk\sso\util\BASE64Util.class
 META-INF\spring-configuration-metadata.json

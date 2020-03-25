@@ -10,9 +10,21 @@
   "properties": [
     {
       "sourceType": "com.mk.sso.SsoProperties",
+      "defaultValue": 1800,
+      "name": "sso.cookie-max-age",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.mk.sso.SsoProperties",
       "defaultValue": false,
       "name": "sso.enable",
       "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.mk.sso.SsoProperties",
+      "defaultValue": [],
+      "name": "sso.ignore-resources",
+      "type": "java.lang.String[]"
     },
     {
       "sourceType": "com.mk.sso.SsoProperties",

@@ -2,5 +2,6 @@ package com.mk.sso.constant;
 
 public class Constants {
 
-    public static final String CURRENT_USER = "current_user";
+    // 当前登录用户的KEY
+    public static final String CURRENT_USER = "currentUser";
 }

@@ -38,4 +38,41 @@ mybatis-plus:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 
 sso:
-  default-webapp: http%3A%2F%2Flocalhost%3A8080%2Ftest
+  enable: true
+  sso-server: http://127.0.0.1
+  ignore-urls: /,/sso/loginPage,/sso/login,/sso/logout,/logout
+  ignore-resources: .js, .css, .jpg, .png, .ico, .html, .js.map, .woff, .ttf
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#spring:
+#  profiles:
+#    active: dev
+#app:
+#  id: sso-server
+#apollo:
+#  bootstrap:
+#    enabled: true
+#    namespaces: application
+#
