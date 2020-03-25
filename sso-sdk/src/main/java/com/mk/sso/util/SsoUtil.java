@@ -56,8 +56,8 @@ public class SsoUtil {
      * @return
      */
     public static User getCurrentUser(HttpServletRequest request){
-        HttpSession session = SessionContext.getSession(request.getSession().getId());
-        if(session == null) {
+        HttpSession session = request.getSession();
+        if(session ==  null){
             return null;
         }
         return (User)session.getAttribute(Constants.CURRENT_USER);

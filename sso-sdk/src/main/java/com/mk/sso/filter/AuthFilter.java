@@ -62,11 +62,6 @@ public class AuthFilter implements Filter {
         // 默认未登录
         boolean isLogined = false;
 
-        if(SsoUtil.getCurrentUser(request) != null) {
-            isLogined = true;
-            return isLogined;
-        }
-
         // 通过key获取cookie信息
         String userJson = SsoUtil.getCookieVal(request, Constants.CURRENT_USER);
         User currentUser = JSONObject.parseObject(userJson, User.class);
