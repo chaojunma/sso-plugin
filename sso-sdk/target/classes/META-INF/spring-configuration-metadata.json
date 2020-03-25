@@ -22,7 +22,14 @@
     },
     {
       "sourceType": "com.mk.sso.SsoProperties",
-      "defaultValue": [],
+      "defaultValue": [
+        ".js",
+        ".css",
+        ".jpg",
+        ".png",
+        ".ico",
+        ".html"
+      ],
       "name": "sso.ignore-resources",
       "type": "java.lang.String[]"
     },

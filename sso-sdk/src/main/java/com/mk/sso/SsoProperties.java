@@ -14,7 +14,7 @@ public class SsoProperties {
     private  String[] ignoreUrls = {};
 
     //放行的资源文件
-    private  String[] ignoreResources = {};
+    private  String[] ignoreResources = {".js", ".css", ".jpg", ".png", ".ico", ".html"};
 
     // sso服务器地址
     private String ssoServer;

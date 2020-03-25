@@ -41,7 +41,7 @@ sso:
   enable: true
   sso-server: http://127.0.0.1
   ignore-urls: /,/sso/loginPage,/sso/login,/sso/logout,/logout
-  ignore-resources: .js, .css, .jpg, .png, .ico, .html, .js.map, .woff, .ttf
+  ignore-resources: .js, .css, .jpg, .png, .ico, .html
 
 
 
